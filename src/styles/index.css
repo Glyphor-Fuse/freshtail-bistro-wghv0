@@ -1,3 +1,14 @@
 @import "./fonts.css";
 @import "./tailwind.css";
 @import "./theme.css";
+
+/* Base Overrides for 'Warm Editorial' Feel */
+body {
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
