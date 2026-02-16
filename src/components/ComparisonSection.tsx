@@ -8,7 +8,7 @@ export default function ComparisonSection() {
       <div className="container px-4 md:px-6 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <SparklesCore className="w-5 h-5 text-primary" />
+            <Sparkles className="w-5 h-5 text-primary" />
             <span className="text-primary font-bold tracking-wider text-sm uppercase">The FreshTail Difference</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-6">
